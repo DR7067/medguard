@@ -1,0 +1,80 @@
+{
+  "BASOPHILS": {
+    "max": 7.0,
+    "min": 4.0,
+    "raw": "4-7",
+    "source_label": "BASOPHILS"
+  },
+  "BUN": {
+    "max": 20.0,
+    "min": 6.0,
+    "raw": "6-20",
+    "source_label": "BUN"
+  },
+  "CALCIUM": {
+    "max": 10.09,
+    "min": 8.6,
+    "raw": "8.6-10.09",
+    "source_label": "CALCIUM"
+  },
+  "CREATININE": {
+    "max": 1.2,
+    "min": 0.707,
+    "raw": "0.707-1.2",
+    "source_label": "CREATININE"
+  },
+  "EOSINOPHILS": {
+    "max": 7.0,
+    "min": 4.0,
+    "raw": "4-7",
+    "source_label": "EOSINOPHILS"
+  },
+  "HEMOGLOBIN": {
+    "max": 7.0,
+    "min": 4.0,
+    "raw": "4-7",
+    "source_label": "HEMOGLOBIN"
+  },
+  "LYMPHOCYTES": {
+    "max": 7.0,
+    "min": 4.0,
+    "raw": "4-7",
+    "source_label": "LYMPHOCYTES"
+  },
+  "MONOCYTES": {
+    "max": 7.0,
+    "min": 4.0,
+    "raw": "4-7",
+    "source_label": "MONOCYTES"
+  },
+  "NEUTROPHILS": {
+    "max": 7.0,
+    "min": 4.0,
+    "raw": "4-7",
+    "source_label": "NEUTROPHILS"
+  },
+  "PHOSPHORUS": {
+    "max": 4.5,
+    "min": 2.5,
+    "raw": "2.5-4.5",
+    "source_label": "PHOSPHORUS"
+  },
+  "UREA": {
+    "max": 48.51,
+    "min": 16.6,
+    "raw": "16.6-48.51",
+    "source_label": "UREA"
+  },
+  "URIC ACID": {
+    "max": 7.06,
+    "min": 3.4,
+    "raw": "3.4-7.06",
+    "source_label": "URIC ACID"
+  },
+  "WBC": {
+    "max": 7.0,
+    "min": 4.0,
+    "raw": "4-7",
+    "source_label": "WBC"
+  }
+}

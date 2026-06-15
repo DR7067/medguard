@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511411573507",
+    "project_id": "medguard-6f483",
+    "storage_bucket": "medguard-6f483.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511411573507:android:6486d9fa1377018c020f36",
+        "android_client_info": {
+          "package_name": "com.tejyash.medguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ79_LHWrQZISfz-2fQPv7e_VMwgA2NG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

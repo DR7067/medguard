@@ -1,0 +1,42 @@
+{
+  "BUN": {
+    "max": 20.0,
+    "min": 6.0
+  },
+  "CALCIUM": {
+    "max": 10.09,
+    "min": 8.6
+  },
+  "CREATININE": {
+    "max": 1.2,
+    "min": 0.7
+  },
+  "HEMOGLOBIN": {
+    "max": 7.0,
+    "min": 4.0
+  },
+  "LYMPHOCYTES": {
+    "max": 7.0,
+    "min": 4.0
+  },
+  "MONOCYTES": {
+    "max": 7.0,
+    "min": 4.0
+  },
+  "NEUTROPHILS": {
+    "max": 7.0,
+    "min": 4.0
+  },
+  "PHOSPHORUS": {
+    "max": 4.5,
+    "min": 2.5
+  },
+  "UREA": {
+    "max": 48.51,
+    "min": 16.6
+  },
+  "URIC ACID": {
+    "max": 7.06,
+    "min": 3.4
+  }
+}

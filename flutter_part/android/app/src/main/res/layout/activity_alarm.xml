@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_alarm_screen">
+
+    <View
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="top|start"
+        android:background="@drawable/bg_alarm_circle_top" />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/bg_alarm_circle_bottom" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="140dp" />
+
+        <TextView
+            android:id="@+id/alarmTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="00:31"
+            android:textColor="#F5F7FF"
+            android:textSize="78sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/alarmSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:text="dcc - 1"
+            android:textColor="#DEE5FF"
+            android:textSize="34sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="26dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/snoozeButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_alarm_button_dismiss"
+                android:text="Snooze"
+                android:textAllCaps="false"
+                android:textColor="#F6F8FF"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="1dp" />
+
+            <Button
+                android:id="@+id/takenButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_alarm_button_taken"
+                android:text="Taken"
+                android:textAllCaps="false"
+                android:textColor="#EFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
